@@ -11,7 +11,8 @@ let intermediateDisplayString = '';
 let flagToSetNumber2 = 0;
 let resultFlag = 0;
 let sameOperatorFlag = 0;
-let operatorSign = '';
+let operatorSign = ''; 
+
 function getNumber(id) {
     if (resultFlag == 1) {
         intermediateDisplayString = String(result);
